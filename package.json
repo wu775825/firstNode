@@ -1,0 +1,23 @@
+{
+  "name": "firstnode",
+  "version": "1.0.0",
+  "description": "entry node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wu775825/firstNode.git"
+  },
+  "author": "queya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wu775825/firstNode/issues"
+  },
+  "homepage": "https://github.com/wu775825/firstNode#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "handlebars": "^4.0.11"
+  }
+}

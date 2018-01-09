@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <style type="text/css">
+        body {
+            padding: 30px;
+        }
+        a {
+            display: inline-block;
+            padding: 10px;
+            text-decoration: none;
+        }
+        span {
+            margin-left: 4px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    {{#each fileList}}
+        <a href="{{../dir}}/{{file}}">{{file}}<span>({{icon}})</span></a>
+    {{/each}}
+</body>
+</html>
